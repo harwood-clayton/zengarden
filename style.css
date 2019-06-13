@@ -1,6 +1,22 @@
 /* Zen Garden CSS */
 
+body{
+	font-family: 'western';
+}
+
+
 .page-wrapper {
   max-width: 800px;
   margin: 0 auto;
+}
+
+
+
+
+
+
+/* General font keep at the very bottom */
+@font-face{
+  font-family: western;
+    src: url(../assets/westernbangbang.otf);
 }
