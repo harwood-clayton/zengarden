@@ -1,22 +1,21 @@
 /* Zen Garden CSS */
 
-body{
-	font-family: 'western';
-}
-
-@media all and (min-width: 50em) {
-    .column {
-        float:left;
-        width: 50%;
+/* basic elements */
+    body{
+        max-width: 1200px;
+        display: flex;
+        font-family: 'western';
+        margin: 0 auto;
     }
 
 /*Mobile or Narrow screen */
-
-.page-wrapper {
-    max-width: 900px;
-    margin: 0 auto;
-    overflow: hidden;
-    background-color: aquamarine;
+@media all and (min-width: 50em) {
+    
+    .page-wrapper {
+        margin: 0 auto;
+        overflow: hidden;
+        background-color: aquamarine;
+    }
 }
 
 .intro {
@@ -45,18 +44,25 @@ body{
 @media (min-width:45em) and (max-width:200em) {
    .intro {
         float: left;
-        margin-right: 30%;
+        width: 75%;
+        margin-right: 2%;
+        overflow: hidden;
         background-color: pink;
         
 }
     .main {
         float: left;
-        margin-right: 30%;
+        width: 75%;
+        margin-right: 2%;
+        overflow: hidden;
         background-color: pink;
     }
     
-    .aside {
-        float: 
+    .sidebar {
+        float: left;
+        width: 20%; 
+        margin-right: 2%;
+        background-color: yellow;
     }
  
 }
