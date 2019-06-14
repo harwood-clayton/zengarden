@@ -4,11 +4,65 @@ body{
 	font-family: 'western';
 }
 
+@media all and (min-width: 50em) {
+    .column {
+        float:left;
+        width: 50%;
+    }
+
+/*Mobile or Narrow screen */
 
 .page-wrapper {
-  max-width: 800px;
-  margin: 0 auto;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: aquamarine;
 }
+
+.intro {
+    
+}
+
+/*Medium Screem */
+
+@media (min-width:30em) and (max-width:45em) {
+   .intro {
+        float: left;
+        margin-right: 10%;
+        background-color: lime;
+        
+}
+    .main {
+        float: left;
+        margin-right: 10%;
+        background-color: lime;
+    }
+ 
+}
+
+/* Wide Screen */
+
+@media (min-width:45em) and (max-width:200em) {
+   .intro {
+        float: left;
+        margin-right: 30%;
+        background-color: pink;
+        
+}
+    .main {
+        float: left;
+        margin-right: 30%;
+        background-color: pink;
+    }
+    
+    .aside {
+        float: 
+    }
+ 
+}
+
+
+
 
 
 
